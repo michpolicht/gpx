@@ -4,7 +4,7 @@ GPX was a physics library focused on real-time simulations.
 
 It utilizes algorithms described in doc/GPX_CollisionHandling.pdf.
 
-They provide accurate solutions after solving a linear equation.
+They provide accurate solutions.
 
 The main idea was that each object delivers A and b coefficients, which lead to neat algorithm, 
 that could simulate collisions (and friction*) beteween any type of object with the same piece of code.
