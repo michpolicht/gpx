@@ -1,1 +1,6 @@
-SFML/*
+SFML/lib/mingw/*
+SFML/lib.gcc.4.7.2.r10/mingw/*
+SFML/lib.gcc.4.7.2/mingw/*
+SFML/lib.4.7.2.r10/mingw/*
+SFML/lib.gcc.4.6.2/mingw/*
+SFML/lib.org/mingw/*
