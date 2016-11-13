@@ -1,0 +1,2 @@
+separate include versions of license files shall be put into lic folder
+Main LICENSE file will contain licenses of all vendors

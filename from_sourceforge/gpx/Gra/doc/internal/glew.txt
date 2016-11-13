@@ -1,0 +1,6 @@
+windows gcc may be not able to privately link to external static library. That is
+symbols from that liberary are exported within a compiled library. In order to make
+glew private it's required to use glew.c file + define GLEW_STATIC macro. 
+
+Also remember that glew.c may use settings for C compiler in Eclipse. I wasn't able
+to compile glew.c correctly, because GLEW_STATIC macro was set only in C++ tab.

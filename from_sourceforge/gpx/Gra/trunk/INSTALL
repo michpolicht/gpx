@@ -1,0 +1,16 @@
+GPX uses Kitware's CMake as a build system. Basically to create static or dynamic library
+you have to:
+
+1. Install CMake
+2. Create build directory and chdir into it
+3. Call cmake generator (e.g., "cmake -G "MSYS Makefiles" ..")
+4. Run make
+
+Refer to CMake documentation for details. More precise instructions will come later.
+
+
+CMake and MinGW/MSYS.
+
+On older versions of MinGW/MSYS, CMake refuses to link/compile test sources. In order
+to work properly it requires recent versions of ld and gcc suite. Versions ld 2.20, 
+gcc 3.4.5 were tested on Windows.

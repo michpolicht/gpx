@@ -1,0 +1,2 @@
+when gra3d classes will be able to emulate 2d mode they shall be put in
+gra module. For example further 2d/3d gra::Scene class may replace gra2d::Scene.
