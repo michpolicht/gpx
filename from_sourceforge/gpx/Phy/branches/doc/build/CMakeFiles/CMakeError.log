@@ -1,0 +1,18 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Work/Projekty/GraPhyX/Eclipse.3.6/gpx/Phy/wc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/Winprogs/MSYS1.0/bin/make.exe "cmTryCompileExec/fast"
+/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/c/Work/Projekty/GraPhyX/Eclipse.3.6/gpx/Phy/wc/build/CMakeFiles/CMakeTmp'
+"/C/Winprogs/CMake 2.8/bin/cmake.exe" -E cmake_progress_report /C/Work/Projekty/GraPhyX/Eclipse.3.6/gpx/Phy/wc/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj
+/C/Winprogs/MinGW/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj   -c /C/Work/Projekty/GraPhyX/Eclipse.3.6/gpx/Phy/wc/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec.exe
+/C/Winprogs/MinGW/bin/gcc.exe        -Wl,@CMakeFiles/cmTryCompileExec.dir/objects1.rsp  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+c:\Winprogs\MinGW\bin\..\lib\gcc\mingw32\3.4.2\..\..\..\..\mingw32\bin\ld.exe: @CMakeFiles/cmTryCompileExec.dir/objects1.rsp: No such file: No such file or directory
+collect2: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make[1]: Leaving directory `/c/Work/Projekty/GraPhyX/Eclipse.3.6/gpx/Phy/wc/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec/fast] Error 2
+
+
