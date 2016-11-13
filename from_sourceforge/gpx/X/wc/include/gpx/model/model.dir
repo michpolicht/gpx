@@ -1,0 +1,9 @@
+/**
+@dir model Model.
+
+Common model used by both: gra and phy. 
+
+@internal The goal is to provide useful functionality, yet model should be light weighted to 
+allow easy integration into other APIs and graphics libraries.
+
+*/
