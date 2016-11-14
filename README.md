@@ -11,7 +11,7 @@ that could simulate collisions (and friction*) beteween any type of object with 
 Library also implemented features such as double buffered phase-space and nice algorithm for finding interesction points.
 
 I had no time to implement many features, like asynchronous updates (update rate depending on kinetic energy),
-optimized version of algorithm for removal of negative impulses or dislocator classes to dislocate objects in a better way.
+optimized version of algorithm for removal of negative impulses or dislocator classes to dislocate objects (to compensate small floating point arithmetics errors) in a better way.
 
 I won't have time to play with it any more probably, so I'm putting code for archival purposes.
 
