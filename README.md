@@ -16,3 +16,5 @@ optimized version of algorithm for removal of negative impulses or dislocator cl
 I won't have time to play with it any more probably, so I'm putting code for archival purposes.
 
 *Friction may have been removed for testing purposes. It was tested in older versions on sourceforge.
+
+R.I.P.
